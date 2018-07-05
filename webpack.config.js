@@ -33,9 +33,6 @@ const config = {
 	},
 
 	plugins: [
-		new HtmlWebpackPlugin({
-			template: './dist/index.html'
-		}),
 		new MiniCssExtractPlugin({
 			name: '[name].css',
 			chunkFilename: '[id].css'

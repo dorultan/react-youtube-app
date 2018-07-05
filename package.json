@@ -2,7 +2,7 @@
   "name": "react-youtube-app",
   "version": "1.0.0",
   "description": "React youtube app",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "start": "webpack-dev-server",
     "production": "webpack --progress && node app.js",
