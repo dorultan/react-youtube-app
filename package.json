@@ -4,7 +4,7 @@
   "description": "React youtube app",
   "main": "app.js",
   "scripts": {
-    "start": "webpack-dev-server",
+    "start": "webpack && node app.js",
     "production": "webpack --progress && node app.js",
     "build": "webpack"
   },
